@@ -1,5 +1,10 @@
 package com.javabasics.rajeshwar;
 
+/**
+ * @author rsharma
+ * @created_date Jan 7, 2018
+ */
+
 public class StringBasics {
 
 	static String h = "Hare Krishna Hare Krishna Krishna Krishna Hare Hare";
