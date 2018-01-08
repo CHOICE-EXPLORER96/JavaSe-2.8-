@@ -69,13 +69,13 @@ public class Constructor {
 	}
 
 	{
-		address = "INDIA";
+		address = "NEW DELHI";
 		System.out.println("Running Instance Initializer II");
 
 	}
 
 	static {
-		roll = 123;
+		roll = 234;
 		System.out.println("Running Static Initializer II");
 	}
 
