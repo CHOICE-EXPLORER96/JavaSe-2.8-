@@ -10,9 +10,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class IndigoHomePage {
+public class IndigoHomePagePageFactory {
 
-	// Here we are going to create Page Factory Model for Indigo website
+	// Here we are going to create POM for Indigo website
 
 	// this is the class for HomePage elements
 	WebDriver driver;
@@ -57,7 +57,7 @@ public class IndigoHomePage {
 	WebElement submit1;
 
 	
-	public  IndigoHomePage(WebDriver driver) {
+	public  IndigoHomePagePageFactory(WebDriver driver) {
 		
 		this.driver = driver;
 		PageFactory.initElements(driver, this); // This is most important when we use Page Factory if we dont add this we will get 
