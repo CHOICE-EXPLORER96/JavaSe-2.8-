@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class IndigoHomePage {
 
-	// Here we are going to create POM for Indigo website
+	// Here we are going to create Page Factory Model for Indigo website
 
 	// this is the class for HomePage elements
 	WebDriver driver;
